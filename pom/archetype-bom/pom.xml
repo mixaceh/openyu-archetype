@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.openyu.archetype</groupId>
+	<artifactId>openyu-archetype-bom</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>OpenYu Archetype (Bill of Materials)</name>
+	<description>OpenYu Archetype (Bill of Materials)</description>
+	<url>http://archetype.openyu.org</url>
+	<organization>
+		<name>OpenYu</name>
+		<url>http://www.openyu.org</url>
+	</organization>
+
+	<dependencies>
+		<!-- 
+		<dependency>
+			<groupId>org.openyu.archetype</groupId>
+			<artifactId>openyu-archetype-app</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openyu.archetype</groupId>
+			<artifactId>openyu-archetype-richfaces</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		 -->
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<profiles>
+	</profiles>
+</project>
