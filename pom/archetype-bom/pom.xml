@@ -24,7 +24,6 @@
 	</licenses>
 
 	<dependencies>
-		<!-- 
 		<dependency>
 			<groupId>org.openyu.archetype</groupId>
 			<artifactId>openyu-archetype-app</artifactId>
@@ -35,7 +34,6 @@
 			<artifactId>openyu-archetype-richfaces</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		 -->
 	</dependencies>
 
 </project>
