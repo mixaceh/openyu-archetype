@@ -20,7 +20,6 @@
 		<url>http://www.openyu.org</url>
 	</organization>
 
-	<inceptionYear>2015</inceptionYear>
 	<licenses>
 		<license>
 			<name>Apache 2</name>
@@ -37,19 +36,4 @@
 	</modules>
 	-->
 
-	<properties>
-	</properties>
-
-	<dependencies>
-	</dependencies>
-
-	<build>
-		<pluginManagement>
-			<plugins>
-			</plugins>
-		</pluginManagement>
-	</build>
-
-	<profiles>
-	</profiles>
 </project>
