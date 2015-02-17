@@ -8,29 +8,23 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<artifactId>openyu-archetype-app</artifactId>
-	<packaging>jar</packaging>
+	<artifactId>openyu-archetype-richfaces</artifactId>
+	<packaging>war</packaging>
 
-	<name>OpenYu Archetype App</name>
-	<description>OpenYu Archetype App</description>
+	<name>OpenYu Archetype Richfaces</name>
+	<description>OpenYu Archetype Richfaces</description>
 	<url>http://archetype.openyu.org</url>
 	<organization>
 		<name>OpenYu</name>
 		<url>http://www.openyu.org</url>
 	</organization>
 
-	<licenses>
-		<license>
-			<name>Apache 2</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-			<comments>A business-friendly OSS license</comments>
-		</license>
-	</licenses>
-	
 	<properties>
-		<package.name>org.openyu.archetype.app</package.name>
+		<package.name>org.openyu.archetype.richfaces</package.name>
 	</properties>
+
+	<dependencies>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -79,4 +73,6 @@
 		</pluginManagement>
 	</build>
 
+	<profiles>
+	</profiles>
 </project>

@@ -1,0 +1,1 @@
+# OpenYu Archetype Richfaces Java
