@@ -1,2 +1,1 @@
-# openyu-archetype.j
-OpenYu Archetype Java
+# OpenYu Archetype Java
