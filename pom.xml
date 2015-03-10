@@ -32,7 +32,7 @@
 	<!--  
 	<modules>
 		<module>openyu-archetype-app.j</module>
-		<module>openyu-archetype-richfaces.j</module>
+		<module>openyu-archetype-richfaces4.j</module>
 	</modules>
 	-->
 
