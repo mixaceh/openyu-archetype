@@ -1,4 +1,4 @@
-package org.openyu.archetype.richfaces;
+package org.openyu.archetype.richfaces4;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

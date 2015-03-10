@@ -8,11 +8,11 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<artifactId>openyu-archetype-richfaces</artifactId>
+	<artifactId>openyu-archetype-richfaces4</artifactId>
 	<packaging>war</packaging>
 
-	<name>OpenYu Archetype Richfaces</name>
-	<description>OpenYu Archetype Richfaces</description>
+	<name>OpenYu Archetype Richfaces4</name>
+	<description>OpenYu Archetype Richfaces4</description>
 	<url>http://archetype.openyu.org</url>
 	<organization>
 		<name>OpenYu</name>
@@ -20,7 +20,7 @@
 	</organization>
 
 	<properties>
-		<package.name>org.openyu.archetype.richfaces</package.name>
+		<package.name>org.openyu.archetype.richfaces4</package.name>
 	</properties>
 
 	<dependencies>

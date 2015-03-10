@@ -1,7 +1,7 @@
-package org.openyu.archetype.richfaces;
+package org.openyu.archetype.richfaces4;
 
 import org.junit.Test;
-import org.openyu.archetype.richfaces.App;
+import org.openyu.archetype.richfaces4.App;
 
 public class AppTest {
 
