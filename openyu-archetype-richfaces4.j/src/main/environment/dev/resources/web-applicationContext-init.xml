@@ -110,7 +110,7 @@
 	-->
 
 	<!--  
-	<bean id="logCacheProvider" class="org.openyu.sfc.hibernate.EhCacheProvider">
+	<bean id="logCacheProvider" class="org.openyu.commons.hibernate.EhCacheProvider">
 		<property name="cacheManagerName">
 			<value>logCacheProvider</value>
 		</property>
