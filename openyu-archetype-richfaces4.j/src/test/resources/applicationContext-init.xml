@@ -18,7 +18,7 @@
 			<value>classpath:log4j.properties</value>
 		</property>
 		-->
-	<!--
+		<!--
 		<property name="jsonDirLocation">
 			<value>file:src/main/webapp/WEB-INF/config/json</value>
 		</property>
@@ -98,34 +98,6 @@
 			</list>
 		</property>
 	</bean>  	
-
-    <!--  
-	<bean id="cacheProvider" class="org.openyu.commons.hibernate.EhCacheProvider">
-		<property name="cacheManagerName">
-			<value>cacheProvider</value>
-		</property>
-		<property name="configLocation">
-			<value>classpath:ehcache.xml</value>
-		</property>
-		<property name="diskStoreLocation">
-			<value>file:ehcache</value>
-		</property>
-	</bean>
-	-->
-
-	<!--  
-	<bean id="logCacheProvider" class="org.openyu.commons.hibernate.EhCacheProvider">
-		<property name="cacheManagerName">
-			<value>logCacheProvider</value>
-		</property>
-		<property name="configLocation">
-			<value>classpath:ehcache-log.xml</value>
-		</property>
-		<property name="diskStoreLocation">
-			<value>file:ehcache-log</value>
-		</property>
-	</bean>
-	-->
 
 	<!-- velocity -->
 	<bean id="velocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
