@@ -2256,7 +2256,7 @@
 							<manifest>
 								<mainClass>${package.name}.App</mainClass>
 								<addClasspath>true</addClasspath>
-								<classpathPrefix>../../lib/</classpathPrefix>
+								<classpathPrefix>../lib/</classpathPrefix>
 							</manifest>
 							<manifestEntries>
 								<Class-Path>.</Class-Path>
