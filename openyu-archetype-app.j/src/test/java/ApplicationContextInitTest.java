@@ -2,14 +2,13 @@ import static org.junit.Assert.assertNotNull;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
-import org.apache.velocity.app.VelocityEngine;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import freemarker.template.Configuration;
+import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
+import org.springframework.web.servlet.view.velocity.VelocityConfigurer;
 
 public class ApplicationContextInitTest {
 
@@ -39,18 +38,18 @@ public class ApplicationContextInitTest {
 	}
 
 	@Test
-	public void velocityEngine() {
-		VelocityEngine bean = (VelocityEngine) applicationContext
-				.getBean("velocityEngine");
+	public void velocityConfigurer() {
+		VelocityConfigurer bean = (VelocityConfigurer) applicationContext
+				.getBean("velocityConfigurer");
 		System.out.println(ToStringBuilder.reflectionToString(bean,
 				ToStringStyle.MULTI_LINE_STYLE));
 		assertNotNull(bean);
 	}
 
 	@Test
-	public void freeMarkerConfiguration() {
-		Configuration bean = (Configuration) applicationContext
-				.getBean("freeMarkerConfiguration");
+	public void freeMarkerConfigurer() {
+		FreeMarkerConfigurer bean = (FreeMarkerConfigurer) applicationContext
+				.getBean("freeMarkerConfigurer");
 		System.out.println(ToStringBuilder.reflectionToString(bean,
 				ToStringStyle.MULTI_LINE_STYLE));
 		assertNotNull(bean);
