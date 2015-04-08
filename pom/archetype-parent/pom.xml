@@ -1599,6 +1599,7 @@
 			<artifactId>httpasyncclient</artifactId>
 			<version>4.0.2</version>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
@@ -1609,6 +1610,7 @@
 			<artifactId>jersey-client</artifactId>
 			<version>1.18.1</version>
 		</dependency>
+		-->
 
 		<!-- 2014/10/21 -->
 		<dependency>
@@ -1988,6 +1990,7 @@
 			<version>2.11</version>
 		</dependency>
 
+		<!--  
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
@@ -2043,6 +2046,7 @@
 			<artifactId>jersey-mvc-freemarker</artifactId>
 			<version>2.15</version>
 		</dependency>
+		-->
 
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
@@ -2102,6 +2106,7 @@
 			<artifactId>yuicompressor</artifactId>
 			<version>2.4.8</version>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>org.wicketstuff</groupId>
 			<artifactId>wicketstuff-htmlcompressor</artifactId>
@@ -2117,6 +2122,7 @@
 			<artifactId>org-apache-batik-all</artifactId>
 			<version>1.7-201003011305</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
@@ -2289,8 +2295,11 @@
 								<directory>${runtime.env}/config/etc</directory>
 								<filtering>true</filtering>
 								<includes>
+									<!--  
 									<include>**/*.xml</include>
 									<include>**/*.properties</include>
+									-->
+									<include>**/*</include>
 								</includes>
 								<excludes>
 									<exclude>**/*-bak.*</exclude>
@@ -2350,10 +2359,11 @@
 									<resource>
 										<directory>${runtime.env}/config/etc</directory>
 										<filtering>true</filtering>
-										<includes>
-											<include>**/*.xml</include>
-											<include>**/*.properties</include>
-										</includes>
+										<!--  
+										<include>**/*.xml</include>
+										<include>**/*.properties</include>
+										-->
+										<include>**/*</include>
 										<excludes>
 											<exclude>**/*-bak.*</exclude>
 										</excludes>
@@ -2452,7 +2462,10 @@
 					<artifactId>maven-dependency-plugin</artifactId>
 					<version>2.9</version>
 					<configuration>
+						<!--  
 						<includeScope>runtime</includeScope>
+						-->
+						<excludeScope>provided</excludeScope>
 						<outputDirectory>${project.basedir}/lib</outputDirectory>
 					</configuration>
 					<!--  
