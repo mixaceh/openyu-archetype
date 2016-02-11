@@ -31,8 +31,8 @@
 	
 	<!--  
 	<modules>
-		<module>openyu-archetype-app.j</module>
-		<module>openyu-archetype-richfaces4.j</module>
+		<module>openyu-archetype-app</module>
+		<module>openyu-archetype-richfaces4</module>
 	</modules>
 	-->
 

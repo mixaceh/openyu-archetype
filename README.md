@@ -1,1 +1,1 @@
-# OpenYu Archetype Java
+# OpenYu Archetype

@@ -1,1 +1,1 @@
-# OpenYu Archetype Richfaces Java
+# OpenYu Archetype Richfaces 4

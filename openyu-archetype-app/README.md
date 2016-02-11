@@ -1,1 +1,1 @@
-# OpenYu Archetype App Java
+# OpenYu Archetype App
